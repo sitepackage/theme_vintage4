@@ -1,0 +1,110 @@
+.widgets{
+	background: url('widgets.png') no-repeat ;
+}
+.banners{
+	background: url('banners.png') no-repeat ;
+}
+.buttons{
+	background: url('buttons.png') no-repeat;
+}
+/*------------------- Font Color --------------------*/
+a,
+#header .logo_wrapper .site_slogan,
+#footer .copyright a:hover,
+#footer .nav a:hover{
+  color:#777;
+}
+#sidebar1 .account .logged_in li a{
+  color:#666;
+}
+#header .nav li a,
+#header .nav2 li a,
+#sidebar1 .account .logged_in li,
+#sidebar1 .account fieldset .signup,
+#sidebar1 .account .logged_in li a:hover,
+#discussion .padding .title,
+#discussion .padding .count,
+#discussion .padding .date,
+#cart .items th,
+#collection .subcategory a{
+  color:#fff; 
+}
+a:hover,
+#sidebar1 .nav-left .active a,
+#header .logo_wrapper .site_name,
+#header .cart_status a span strong,
+#header .nav li a:hover,
+#sidebar1 .account fieldset .signup:hover,
+#footer .nav a,
+#product .details p a:hover,
+.page2 .padding .grid .price,
+#blog .padding .excerpt a,
+#create_comment .message a,
+#sidebar1 .stats dd{
+  color:#8bc7ad;
+}
+#sidebar1 .account .logged_in h2,
+#header .cart_status a span,
+#header .nav2 li a:hover,
+#collection .subcategory a:hover{
+  color:#586a5c;
+}
+#header .cart_status a:hover span ,
+#header .cart_status a:hover span strong {
+  color:#000;
+}
+#nav-left .nav-left  h2,
+#frontpage .page .toppic,
+#frontpage .page2 .toppic,
+#page .toppic,
+#collection .toppic,
+#product .toppic a,
+#cart .toppic,
+#blog .toppic,
+#article .toppic,
+#discussion .toppic,
+#product .details p a{
+  color:#8bc7ad;
+}
+/*------------------- Background Color --------------------*/
+#header .nav{
+  background-color:#8bc7ad;  
+}
+#header .nav2,
+#sidebar1 .account fieldset .signup,
+#collection .subcategory a{
+  background-color:#586a5c;    
+}
+#header .nav li a:hover,
+#header .nav2 li a:hover,
+#sidebar1 .account fieldset .signup:hover{
+  background-color:#fff;
+}
+#comments li .meta,
+#discussion .listing .hover,
+#collection .subcategory a:hover{
+  background-color:#eaf6f1;
+}
+#discussion .listing th,
+#cart .items th{
+ background-color:#b1c9b5;
+}
+/*------------------- Border Color --------------------*/
+#nav-left,
+#frontpage .page .padding{
+  border:2px dotted #e3c79f;
+}
+#frontpage .column li{
+  border-bottom:2px dotted #e3c79f;  
+}
+#comments li .meta{
+  border:2px dotted #e3c79f;  
+}
+#discussion .listing td,
+#cart .items td,
+#nav-left .nav-left .list li{
+  border-bottom:1px dotted #e3c79f;  
+}
+#footer{
+  border-top:2px dotted #f0d5a0;  
+}
